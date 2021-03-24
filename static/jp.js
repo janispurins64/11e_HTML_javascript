@@ -1,3 +1,27 @@
+function cip(a){
+    let rez = document.getElementById("re");
+    let saturs = rez.textContent;
+    saturs = saturs + String(a);
+    let x = parseFloat(saturs);
+    rez.textContent = String(x);
+    console.log(a);
+    console.log(saturs);  
+}
+function kva(){
+    let rez = document.getElementById("re");
+    let saturs = rez.textContent; 
+    let x = parseFloat(saturs);
+    rez.textContent = String(x*x);
+    console.log(x*x);
+}
+
+
+
+
+
+
+
+
 function j11e_1(){
     let o11e_1 = document.getElementsByTagName("div");
     console.log(o11e_1);
