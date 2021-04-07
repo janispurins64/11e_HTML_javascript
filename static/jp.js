@@ -1,3 +1,13 @@
+var n=0;
+function tt_11e(){
+    let rez = document.getElementById("t_11e"); 
+    n = n + 1;   
+    rez.textContent = "Šis ir " +String(n)+". klikšķis";
+}
+window.setInterval(tt_11e,1000);
+
+
+
 function cip(a){
     let rez = document.getElementById("re");
     let saturs = rez.textContent;
