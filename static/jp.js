@@ -1,22 +1,40 @@
+function du1(){
+    let we = document.getElementById("eee"); 
+    let se = we.textContent;
+    se = se + "1";
+    we.textContent = se;
+
+}
+
 var n=0;
 function tt_11e(){
     let rez = document.getElementById("t_11e"); 
     n = n + 1;   
     rez.textContent = "Šis ir " +String(n)+". klikšķis";
 }
-window.setInterval(tt_11e,1000);
+//t11 = window.setInterval(tt_11e,1000);
 
 
 
 function cip(a){
     let rez = document.getElementById("re");
+    let poga1 = document.getElementById("po11e");
+    poga1.setAttribute("class","t1");
     let saturs = rez.textContent;
     saturs = saturs + String(a);
     let x = parseFloat(saturs);
     rez.textContent = String(x);
     console.log(a);
-    console.log(saturs);  
+    console.log(saturs);
+    
+    setTimeout(bubu,2000);
 }
+function bubu(){
+    let poga1 = document.getElementById("po11e");
+    poga1.setAttribute("class","t0");    
+}
+
+
 function kva(){
     let rez = document.getElementById("re");
     let saturs = rez.textContent; 
@@ -24,9 +42,20 @@ function kva(){
     rez.textContent = String(x*x);
     console.log(x*x);
 }
+var op1="";
+function sas(){
+    let rez = document.getElementById("re");
+    op1= rez.textContent;
+    rez.textContent = "0";
+}
 
-
-
+function vie(){
+    let rez = document.getElementById("re");
+    let op2 = rez.textContent;
+    let su1 =0;
+    su1 = parseFloat(op1) + parseFloat(op2);
+    rez.textContent = String(su1);
+}
 
 
 

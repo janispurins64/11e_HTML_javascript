@@ -9,3 +9,12 @@ p {
     font-size:100%;     
 }
 
+button.t0 {
+    color: darkgrey;
+    font-size: 100%;
+}
+button.t1 {
+    color:chocolate;
+    font-size: 400%;
+    
+}
