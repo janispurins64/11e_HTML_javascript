@@ -11,8 +11,11 @@ function tt_11e(){
     let rez = document.getElementById("t_11e"); 
     n = n + 1;   
     rez.textContent = "Šis ir " +String(n)+". klikšķis";
+    if(n % 2)
+    {     rez.setAttribute("class","d1");}
+    else { rez.setAttribute("class","d2");} 
 }
-//t11 = window.setInterval(tt_11e,1000);
+t11 = window.setInterval(tt_11e,1000);
 
 
 
